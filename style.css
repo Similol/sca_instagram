@@ -206,3 +206,29 @@ section{
 .right_side .profile_title .profile_left .details .name{
     padding-bottom: 3px;
 }
+.suggestion{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.suggestion p{
+    margin-right: 90px;
+}
+.suggestion_title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.suggestion_title .suggestion_left{
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+.suggestion_title .suggestion_left .image img{
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+}
+.suggestion_title .suggestion_left .details .name{
+    padding-bottom: 3px;
+}
